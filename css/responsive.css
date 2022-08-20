@@ -1,0 +1,60 @@
+.navbar{
+    flex-direction: column;
+    padding-bottom: 16px;
+    background: rgba(0,0,0,0.7);
+    /* display: none; */
+}
+
+.navbar .navmenus{
+    flex-direction: column;
+    width: 100%;
+}
+.navmenus .navlist{
+    flex-direction: column;
+}
+.rightnav{
+    flex-direction: column;
+}
+
+/* section first */
+.firstSection>div{
+    flex-direction: column-reverse;
+}
+.firstSection .firstHalf{
+    width: 100%;
+    text-align: center;
+}
+.firstSection .secondHalf{
+    width: 100%;
+    text-align: center;
+}
+.firstSection .secondHalf img{
+    height: 150px;
+}
+.firstHalf h1{
+    font-size: 25px;
+}
+.firstHalf p{
+    font-size: 18px;
+}
+.btn{
+    font-size: 18px;
+    padding: 3px;
+}
+
+/* second */
+.secondSection .leftAlign,.secondSection .rightAlign{
+    flex-direction: column;
+}
+.navbar{
+    display: none;
+}
+.burger{
+    display: block;
+}
+.display{
+    display: block;
+}
+.hide{
+    display: none;
+}
